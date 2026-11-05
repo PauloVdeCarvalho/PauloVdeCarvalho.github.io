@@ -1,0 +1,36 @@
+body{background-color: White;
+    color:black;
+    font-family:Arial;
+    text-align: center;
+}
+
+h1{color: darkblue;
+    text-shadow: 2px 2px 3px lightgrey;
+}
+
+h2{color: darkblue;
+    text-shadow: 2px 2px 3px lightgrey;
+}
+
+h3{color:grey;
+}
+
+#main-title{font-size:  36px;
+}
+
+.important {font-weight: bold;
+text-decoration: underline;}
+
+.skills-list{list-style-type: square;
+list-style-position: inside;}
+
+a{color: blue;}
+
+.cv-container{display: flex;
+justify-content: space-between;
+gap: 20px}
+
+.cv-container>div{flex: 1;}
+
+@media(max-width:600px)
+{.cv-container{flex-direction: column;}}
